@@ -1,4 +1,49 @@
 @font-face {
+    font-family: 'Yeezy';
+    src: url("../../fonts/yeezy_tstar-regular-webfont.ttf");
+    src: url("../../fonts/yeezy_tstar-regular-webfont.woff") format("woff");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Yeezy';
+    src: url("../../fonts/yeezy_tstar-bold-webfont.ttf");
+    src: url("../../fonts/yeezy_tstar-bold-webfont.woff") format("woff");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Yeezy';
+    src: url("../../fonts/yeezy_tstar-heavy-webfont.ttf");
+    src: url("../../fonts/yeezy_tstar-heavy-webfont.woff") format("woff");
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: 'Yeezy';
+    src: url("../../fonts/yeezy_tstar-light-webfont.ttf");
+    src: url("../../fonts/yeezy_tstar-light-webfont.woff") format("woff");
+    font-weight: lighter;
+}
+
+ {
+    margin: 0;
+}
+
+body {
+    font-family: "Yeezy";
+    background: #272727;
+    color: #635E5A;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 16px;
+}
+@font-face {
   font-family: 'Yeezy';
   src: url("../../fonts/yeezy_tstar-regular-webfont.ttf");
   src: url("../../fonts/yeezy_tstar-regular-webfont.woff") format("woff");
